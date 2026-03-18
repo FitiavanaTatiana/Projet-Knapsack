@@ -23,8 +23,8 @@ response = requests.post(url, json=data)
 # Vérifier la réponse
 if response.status_code == 200:
     result = response.json()
-    print("💥 Score max:", result["dp"])
-    print("✅ Produits choisis:",  result["chosen"])
+    print(" Score max:dp[i,w]", result["dp"])
+    print("Produits choisis:",  result["chosen"])
 
     # # Affichage du DP final
     # print("\n🟢 Tableau DP final:")
@@ -32,7 +32,7 @@ if response.status_code == 200:
     #     print(row)
 
     # # Affichage des 5 premières étapes (pour vérifier steps)
-    print("\n🔹 5 premières étapes:")
+    print(" 5 premières étapes:")
     for step in result["steps"]:
         print(step)
 else:
