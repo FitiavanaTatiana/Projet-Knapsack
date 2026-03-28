@@ -83,10 +83,4 @@ Tu vois trois zones : le budget (saisis n'importe quel nombre), les critères (t
 
 Dans l'onglet *Optimisation*, tu bouges les sliders de poids et la solution se recalcule en temps réel. Dans l'onglet *Pareto*, tu vois le nuage de points — les verts sont les meilleures solutions, tu cliques sur un point pour voir quels produits il contient. Dans l'onglet *Sensibilité*, tu sélectionnes un critère et tu vois à partir de quel seuil la combinaison optimale change.
 
----
 
-## Comment l'expliquer à ton équipe en 2 minutes
-
-Tu peux dire : *"On a un problème de sélection sous contrainte de budget. Au lieu de juste résoudre l'optimisation classique avec un seul score, on a ajouté trois niveaux d'analyse. Le premier donne une réponse directe selon les priorités qu'on choisit. Le deuxième montre l'ensemble complet des compromis possibles — la frontière de Pareto — pour que le décideur choisisse en connaissance de cause. Le troisième teste si notre choix tient la route même si on change d'avis sur les priorités. Et tout ça fonctionne avec autant de critères qu'on veut, qu'on configure directement dans l'interface."*
-
-Tu veux qu'on prépare aussi des slides ou un document de présentation du projet ?
